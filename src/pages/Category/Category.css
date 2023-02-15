@@ -1,0 +1,14 @@
+.spPadding{
+    padding: 5px 8px;
+}
+.searchCourse input{
+    outline: none;
+    padding: 6px 10px 6px 70px;
+}
+.searchCourse svg{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 30px;
+    color: #655c5c;
+}

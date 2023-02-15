@@ -1,0 +1,37 @@
+.landingBg{
+    background-image: url('./../../../public/images/imageonline-co-brightnessadjusted.jpg');
+    color: var(--white);
+    background-position: center;
+
+}
+.landingSearch{
+    width: fit-content;
+    margin: 1rem auto;
+}
+.landingSearchBtn{
+    position: absolute;
+    padding: 11px 20px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    top: 3px;
+    left: 5px;
+    background: var(--theme);
+    color: var(--white);
+    border: none;
+    font-size: 20px;
+}
+.landingSearchInput{
+    padding: 12px 10px;
+    border-radius: 5px;
+    background: var(--white);
+    outline: none;
+    border: none;
+}
+
+
+@media screen and (max-width : 576px) {
+    .landingSearch{
+        width: 100% !important;
+    }
+}

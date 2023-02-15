@@ -1,0 +1,24 @@
+.lightThemeBg{
+    background: var(--lightTheme);
+}
+.breadCrumbIcon{
+    color: rgb(55, 55, 56);
+    background-color: var(--white);
+    width: 25px;
+    height: 25px;
+    border-radius: 7px;
+}
+ul.breadCrumbLinks{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 1px 15px;
+    margin: 0;
+}
+.breadCrumbLinks li{
+    margin: 0 10px
+}
+.breadCrumbLinks li a{
+    text-decoration: none;
+    color: var(--dark);
+}

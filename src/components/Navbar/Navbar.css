@@ -1,0 +1,17 @@
+.logo{
+    width: 250px;
+    height: 70px;
+}
+.navbarList{
+    display: flex;
+    list-style-type: none;
+    padding: 1rem;
+    margin: 0;
+}
+.navbarList li{
+    margin: 10px 10px;
+}
+.navbarList li a{
+    text-decoration: none;
+    color: var(--dark);
+}

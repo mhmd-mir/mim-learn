@@ -1,0 +1,16 @@
+.pageBtn{
+    width: 30px;
+    height: 30px;
+    background: #d8d8d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+.activePage{
+    background: var(--theme);
+    color: var(--white);
+}

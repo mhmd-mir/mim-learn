@@ -1,0 +1,12 @@
+.userDashboardBox{
+    padding: 1rem;
+    border: 2px solid #7b238eb8;
+    border-radius: 5px;
+    text-align: center;
+}
+.userDashboardBox:hover{
+    background: #7b238eb8 ;
+}
+.userDashboardBox:hover a{
+    color: var(--white);
+}

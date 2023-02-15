@@ -1,0 +1,102 @@
+@font-face {
+    font-family: "vazir";
+    src: local("vazir"),
+      url("./fonts/Vazirmatn-Regular.woff2") format("woff2");
+}
+*{
+    font-family: vazir;
+}
+.rtl{
+    direction: rtl;
+}
+.ltr{
+    direction: ltr;
+}
+.larger{
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+.darkColor{
+    color: var(--dark);
+}
+.lightColor{
+    color: var(--light);
+}
+.outline-theme-btn{
+    border: 2px solid #852999;
+    background: var(--white);
+    padding: 5px 12px;
+    border-radius: 5px;
+    color: #852999;
+    font-weight: 500;
+}
+.outline-theme-btn:hover{
+    background: var(--theme);
+    color: #ffffff ;
+}
+.fill-theme-btn{
+    padding: 3px 10px;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+.bg-theme-light{
+    background: var(--lightTheme);
+}
+.bg-theme-dark{
+    background: var(--theme);
+}
+.flatLink{
+    text-decoration: none;
+    color: var(--dark);
+}
+.bgTheme{
+    background: var(--theme);
+}
+.flatUl{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.text-gray{
+    color: rgb(82, 82, 82);
+}
+.boldTxt{
+    font-weight: bold;
+}
+.smallFont{
+    font-size: .8rem;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+.disablesBg{
+    background: #85299975 !important;
+  }
+  .swal-footer{
+    text-align: center;
+  }
+  .swal-modal{
+    direction: rtl;
+  }
+  .textareaHeight{
+    height: 150px;
+  }
+  .videoStyles{
+    width: 90%;
+    height: 450px;
+    margin: 10px auto;
+
+  }
+  @media screen and (max-width : 768px) {
+    .videoStyles{
+        width: 95%;
+        height: 200px;
+        margin: 10px auto;
+      }
+  }
+
+  .text-theme{
+    color  : var(--theme)
+  }

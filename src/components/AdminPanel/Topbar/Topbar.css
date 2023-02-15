@@ -1,0 +1,45 @@
+.panelSearchInput{
+    padding: 5px 10px 5px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    box-shadow: 1px 1px 4px #dad5d5 inset;
+    outline: none;
+    background: #00ffdf1f;
+}
+.bellIcon{
+    margin: 0 10px;
+    font-size: 1.5rem;
+    color: #ff6d00;
+    cursor: pointer;
+    z-index: 1;
+}
+.notifications{
+    position: absolute;
+    padding: 1rem;
+    margin: 10px;
+    box-shadow: 1px 1px 6px #b3abab;
+    border-radius: 5px;
+    width: 250px;
+    background-color: #fff;
+}
+.notif p{
+    margin: 0;
+}
+.notif{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.notif svg{
+    color: #b40000;
+    flex: none;
+    cursor: pointer;
+}
+.notifCounter{
+    position: absolute;
+    top: 9px;
+    right: 24px;
+    cursor: pointer;
+    z-index: 0;
+}

@@ -1,0 +1,67 @@
+.sidebar{
+    background: #17203f;
+    min-height: 100vh;
+    padding: 1rem;
+    padding-bottom: 0;
+}
+.panelBrand{
+    width: 70px;
+}
+.panelItems li{
+    margin: 3px 0;
+    padding: 12px 7px 12px 0;
+}
+.panelItems li a{
+    text-decoration: none;
+    color: #8c90a0;
+}
+.panelItems li:hover {
+    background: #353c50;
+    background: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(#353c50),
+      to(rgba(0, 212, 255, 0))
+    );
+    background: linear-gradient(90deg, #353c50 0%, rgba(0, 212, 255, 0) 100%);
+  }
+
+  .panelActiveLink {
+    position: relative;
+    background: #353c50;
+    background: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(#353c50),
+      to(rgba(0, 212, 255, 0))
+    );
+    background: linear-gradient(90deg, #353c50 0%, rgba(0, 212, 255, 0) 100%);
+  }
+  .panelActiveLink a {
+    color: #fff !important;
+  }
+  .panelActiveLink::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #4869ff;
+    width: 5px;
+    height: 100%;
+  }
+  .closeSidebar{
+    color: lightblue;
+    font-size: 2rem;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    display: none;
+  }
+  @media screen and (max-width : 992px) {
+    .closeSidebar{
+        display: block;
+    }
+  }

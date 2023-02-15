@@ -1,0 +1,12 @@
+.addNewArticle{
+    border-radius: 5px;
+    box-shadow: 1px 1px 7px #807c7cab;
+    padding: 1rem;
+}
+.addNewArticleIcon{
+    font-size: 1.5rem;
+}
+.addNewArticleLable{
+    font-weight: 600;
+    margin: 7px 5px 2px 0;
+}

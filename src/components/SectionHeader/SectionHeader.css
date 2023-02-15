@@ -1,0 +1,8 @@
+.bgTheme{
+    background: var(--theme);
+    font-size: 16px;
+}
+.wallEffect{
+    border-right: 2px solid #EF9A53;
+    padding-right: 10px;
+}

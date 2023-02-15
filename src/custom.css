@@ -1,0 +1,12 @@
+/* // css reset */
+@import './sabzlearn.css' ;
+
+
+:root{
+    --white : #ffffff ;
+    --black : #000000 ;
+    --light : #f8f9fa ;
+    --dark : #343a40;
+	--theme : #852999 ;
+	--lightTheme : #85299930 ;
+}

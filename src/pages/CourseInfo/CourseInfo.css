@@ -1,0 +1,58 @@
+.bgLightTheme{
+    background: var(--lightTheme);
+}
+.categoryTitle{
+    padding: 0 0 1rem 0;
+}
+.categoryTitle span{
+    color: var(--theme);
+    padding: 3px 6px;
+    border-radius: 5px;
+}
+.courseIcons svg{
+    margin-left:20px;
+    font-size: 25px;
+    color: rgb(122, 120, 120);
+}
+.progressParent{
+    width: 95%;
+    margin: auto;
+    height: 10px;
+    background-color: rgb(197, 194, 191);
+    border-radius: 10px;
+}
+.progressValue{
+    width: 75%;
+    border-radius: 10px;
+    height: inherit;
+    background: var(--theme);
+}
+.largerIcon{
+    font-size: 30px;
+}
+.closeCourseImg{
+    width : 65px;
+    height: 35px;
+    border-radius: 10px;
+}
+.closeCourseList ul{
+    list-style-type: none;
+    padding: 0;
+}
+.teacherProfile{
+    width: 55px;
+    height: 55px;
+}
+.accordion-button::after{
+    margin-left: 0 ;
+    margin-right: auto;
+}
+.accordionItemIndex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid;
+    width: 35px;
+    height: 35px;
+}

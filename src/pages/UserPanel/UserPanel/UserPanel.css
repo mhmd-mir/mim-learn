@@ -1,0 +1,4 @@
+.spBorder{
+    border-top: 2px solid var(--theme) ;
+    border-bottom: 2px solid var(--theme) ;
+}

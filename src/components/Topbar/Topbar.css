@@ -1,0 +1,65 @@
+@import './../../sabzlearn.css' ;
+.topbarLeft{
+    display: flex;
+    align-items: center;
+}
+.topbarList{
+    display: flex;
+    list-style-type: none;
+    padding: 1rem;
+    margin: 0;
+}
+li.listItem{
+    margin: 0 10px;
+}
+.listItem a{
+    text-decoration: none;
+    color: var(--dark);
+    font-weight: 500;
+}
+.topbarIcons{
+    font-size: 25px;
+    color: rebeccapurple;
+    margin: 0 5px;
+}
+.topbarBg{
+    background: var(--lightTheme);
+}
+.hambergerMenu{
+    display: none;
+    font-size: 25px;
+    margin: 10px;
+    cursor: pointer;
+    z-index: 2;
+   
+}
+.closeParent{
+    display: flex;
+    justify-content: end;
+}
+.closeMenu{
+    cursor: pointer;
+    font-size: 30px;
+    display: none;
+    border: 2px solid;
+    border-radius: 5px;
+}
+@media screen and (max-width : 991px) {
+    .topbarList{
+        z-index: 1;
+        display: block;
+        position: absolute ;
+        right: 0;
+        height: 100vh;
+        background: #e2e2e2;
+    }
+    .topbarList li{
+        margin: 15px 0;
+    }
+    .hambergerMenu{
+        display: block;
+    }
+    .closeMenu{
+        display: block;
+    }
+}
